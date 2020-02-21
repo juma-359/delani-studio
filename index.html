@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani-studio</title>
-    <link href="bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet" type="text/.css">
-    <link href="styles.css" rel="stylesheet" type="text/.css">
+    <link href="bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container">
+   
         <nav>
             <ul>
                 <li>
@@ -22,18 +22,18 @@
                     <a href="#about">About</a>
                     <a href="#services">Services</a>
                     <a href="#what-we-do">What we do</a>
-                    <a href="#portffolio">Portfolio</a>
+                    <a href="#portfolio">Portfolio</a>
                     <a href="#contacts">Contacts</a>
                 </li>
             </ul>
         </nav>
-
+        <div class="container">
         <div id="home">
-            <h1>Welcome</h1>
-            <h1>to delani studio</h1>
+            <h1>Welcome to delani studio</h1>
+            
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</p>
         </div>
-
+<div class="container">
         <div id="about">
             <h1>About us</h1>
             <p>When you work with us, you are part of the team of commited collaborators. All aspects of our software
@@ -42,7 +42,7 @@
             <p>We start each project by understanding your business goals, the user's needs and the product
                 requirements.</p>
             <p>then we help translate them into effectiveand elegant solutions.</p>
-        </div>
+        
         <div id="services">
             <h1>services</h1>
             <p>before we sign a contract or write a line of code our team will spend the necessary time needed to
@@ -53,33 +53,38 @@
         <div id="what-we-do">
             <h1>What we do</h1>
         </div>
-        <div id="Portfolio">
+        <div id="portfolio">
             <h1>Portfolio</h1>
+        </div>
+       </div>
+        <div class="container-fluid">
             <table>
                 <tr>
-                    <td><img src="./images/IP3-master/assets/portfolio/work1.jpg"></td>
-                    <td><img src="./images/IP3-master/assets/portfolio/work2.jpg"></td>
-                    <td><img src="./images/IP3-master/assets/portfolio/work3.jpg"></td>
-                    <td><img src="./images/IP3-master/assets/portfolio/work4.jpg"></td>
+                    <td><img src="./images/IP3-master/assets/portfolio/work1.jpg" width="280" height="280"></td>
+                    <td><img src="./images/IP3-master/assets/portfolio/work2.jpg" width="280" height="280"></td>
+                    <td><img src="./images/IP3-master/assets/portfolio/work3.jpg" width="280" height="280"></td>
+                    <td><img src="./images/IP3-master/assets/portfolio/work4.jpg" width="280" height="280"></td>
                 </tr>
                 <tr>
-                    <td><img src="./images/IP3-master/assets/portfolio/work5.jpg"></td>
-                    <td><img src="./images/IP3-master/assets/portfolio/work6.jpg"></td>
-                    <td><img src="./images/IP3-master/assets/portfolio/work7.jpg"></td>
-                    <td><img src="./images/IP3-master/assets/portfolio/work8.jpg"></td>
+                    <td><img src="./images/IP3-master/assets/portfolio/work5.jpg" width="280" height="280"></td>
+                    <td><img src="./images/IP3-master/assets/portfolio/work6.jpg" width="280" height="280"></td>
+                    <td><img src="./images/IP3-master/assets/portfolio/work7.jpg" width="280" height="280"></td>
+                    <td><img src="./images/IP3-master/assets/portfolio/work8.jpg" width="280" height="280"></td>
                 </tr>
             </table>
         </div>
+        
         <div id="contacts">
             <h1>Contact us</h1>
+
             <form>
-                <input name="name" type="text" placeholder="Name">
-                <input name="email" type="text" placeholder="Email"><br>
-                <textarea name="text" type="text" placeholder="your message here" rows="">
+                <input name="name" type="text" style="background: transparent; width: 40%;" placeholder="Name">
+                <input name="email" type="text" style="background: transparent; width: 40%;" placeholder="Email"><br><br>
+                <textarea name="text" type="text" style="background: transparent; width: 70%; height: 10%;" placeholder="your message here" rows="8">
             </form>
         </div>
         <footer>
-
+            
         </footer>
     </div>
 </body>

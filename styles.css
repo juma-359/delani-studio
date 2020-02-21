@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+}
+nav{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h1{
+    margin-top: 50px;
+}
+#contacts{
+    background-image: url("https://bit.ly/37HTu7P");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+input{
+    text-align: left;
+}
+#home{
+    background-image: url("https://bit.ly/38NQGHQ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+#services{
+    background-image: url("https://bit.ly/38Nlusd");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
