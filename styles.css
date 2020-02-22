@@ -1,6 +1,8 @@
 *{
     text-align: center;
-    /* height: 500%; */
+    /* height: 300%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 nav{
     text-decoration: none;
@@ -20,6 +22,9 @@ h1{
     width: 100%;
 }
 input{
+    text-align: left;
+}
+textarea{
     text-align: left;
 }
 #home{
