@@ -1,5 +1,6 @@
 *{
     text-align: center;
+    /* height: 500%; */
 }
 nav{
     text-decoration: none;
@@ -7,6 +8,8 @@ nav{
 }
 h1{
     margin-top: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 #contacts{
     background-image: url("https://bit.ly/37HTu7P");
@@ -34,4 +37,13 @@ input{
     background-position: center;
     height: 100%;
     width: 100%;
+}
+#portfolio{
+    background-image: url("https://bit.ly/38NQGHQ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
 }
