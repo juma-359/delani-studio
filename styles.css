@@ -1,18 +1,60 @@
 *{
     text-align: center;
-    /* height: 300%; */
     margin-top: 20px;
     margin-bottom: 20px;
+    /* overflow-x: hidden; */
 }
-nav{
-    text-decoration: none;
-    text-transform: uppercase;
+
+#home{
+    background-image: url("https://bit.ly/38NQGHQ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: small;
+    height: 50%;
+    width: 100%;
 }
+
+#services{
+    background-image: url("https://bit.ly/38Nlusd");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120%;
+    width: 120%;
+    color: white;
+    
+}
+
+#portfolio{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;   
+}
+
+#delani{
+    display: inline-block;
+    text-align: center;
+}
+
 h1{
     margin-top: 50px;
     text-transform: uppercase;
     text-decoration: underline;
 }
+ 
+#design-show, #development-show, #product-show{
+    display: none;
+}
+
+.icon-hide{
+    display: inline;
+    justify-content: center;
+}
+
 #contacts{
     background-image: url("https://bit.ly/37HTu7P");
     background-repeat: no-repeat;
@@ -21,34 +63,17 @@ h1{
     height: 100%;
     width: 100%;
 }
+
 input{
     text-align: left;
 }
+
 textarea{
     text-align: left;
 }
-#home{
-    background-image: url("https://bit.ly/38NQGHQ");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
+
+.card-image-overlay :hover{
+   transform: scale(1);
 }
-#services{
-    background-image: url("https://bit.ly/38Nlusd");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-}
-#portfolio{
-    background-image: url("https://bit.ly/38NQGHQ");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    
-}
+
+
