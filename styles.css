@@ -2,27 +2,26 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* overflow-x: hidden; */
 }
 
+
 #home{
-    background-image: url("https://bit.ly/38NQGHQ");
+    background-image: url("./images/IP3-master/assets/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
     font-size: small;
-    height: 50%;
-    width: 100%;
+    height: 100%;
 }
 
 #services{
-    background-image: url("https://bit.ly/38Nlusd");
+    background-image: url("./images/IP3-master/assets/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 120%;
-    width: 120%;
+    height: 100%;
+    width: 100%;
     color: white;
     
 }
@@ -31,14 +30,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
-    width: 100%;   
 }
 
-#delani{
-    display: inline-block;
-    text-align: center;
-}
 
 h1{
     margin-top: 50px;
@@ -50,19 +43,26 @@ h1{
     display: none;
 }
 
-.icon-hide{
-    display: inline;
-    justify-content: center;
+#type {
+    display: inline-block; 
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    justify-content: left;
+    justify-content: right;
 }
 
+
+
 #contacts{
-    background-image: url("https://bit.ly/37HTu7P");
+    background-image: url("./images/IP3-master/assets/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
-    width: 100%;
+    width: 100%; 
 }
+
 
 input{
     text-align: left;
@@ -72,8 +72,28 @@ textarea{
     text-align: left;
 }
 
-.card-image-overlay :hover{
-   transform: scale(1);
+.overlay img{
+    opacity: 1;
+    cursor: initial;
+}
+.overlay img:hover{
+   opacity: 0.5;
 }
 
+.type, .type1, .type2{
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
 
+.click {
+    display: none;
+}
+
+.click1 {
+    display: none;
+}
+
+.click2 {
+    display: none;
+}
