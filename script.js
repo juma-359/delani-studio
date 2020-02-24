@@ -1,15 +1,9 @@
-// $(document).ready(function(){
-//     $(".icon-hide").click(function(){
-//         $("#design-show").toogle()
-//         $("#elani-show").toogle()
-//     })
-// })
-var documents = document
 $(document).ready(function(){
-    $(".icon-hide").click(function(){
-        $("design-show").hide();
-    });
-    $(".icon-hide").click(function(){
-        $("#design-show").show();
+    $(".image").click(function(){
+        $(".type").toggle();
+        $(".click").toggle();
     });
 });
+
+var name =parseInt(document.getElementByClass("name").value);
+var email =parseInt(document.getElementByClass("email").value);
