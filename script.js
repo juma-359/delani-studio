@@ -5,5 +5,16 @@ $(document).ready(function(){
     });
 });
 
-var name =parseInt(document.getElementByClass("name").value);
-var email =parseInt(document.getElementByClass("email").value);
+$(document).ready(function(){
+    $(".image1").click(function(){
+        $(".type1").toggle();
+        $(".click1").toggle();
+    });
+});
+
+$(document).ready(function(){
+    $(".image2").click(function(){
+        $(".type2").toggle();
+        $(".click2").toggle();
+    });
+});
