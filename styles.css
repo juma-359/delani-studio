@@ -48,12 +48,13 @@ h1{
     display: none;
 }
 
-#type {
-    display: inline-block; 
+/* #what {
+    display: inline-block;
+    justify-content: center; 
     width: 100px;
     height: 100px;
     padding: 5px; 
-}
+} */
   
   /* .type1 {
     display: inline-block;
