@@ -6,7 +6,7 @@
 
 
 #home{
-    background-image: url("./images/IP3-master/assets/backgrounds/h_img.jpg");
+    background-image: url("./images/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,7 +16,7 @@
 }
 
 #services{
-    background-image: url("./images/IP3-master/assets/backgrounds/s_image.jpg");
+    background-image: url("./images/s_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,7 +55,7 @@ h1{
 
 
 #contacts{
-    background-image: url("./images/IP3-master/assets/backgrounds/c_image.jpg");
+    background-image: url("./images/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
